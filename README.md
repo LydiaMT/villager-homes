@@ -17,6 +17,7 @@ My goal with this website is to provide an intuitive user experience where users
 ![initial website wireframe](img/about/Wireframe.jpg)
 
 ### Sources
+* [Villager House Exterior Designs Complete List](https://animalcrossingworld.com/guides/new-horizons/villager-house-exterior-designs-complete-list/): Huge shout out to Animal Crossing World for the house exterior artwork and information.
 * [Convert Data Between CSV And JSON With Simple JavaScript](https://www.youtube.com/watch?v=hMwKfkaCdJU)
 * [How to Download a file with node.js](https://stackoverflow.com/questions/11944932/how-to-download-a-file-with-node-js-without-using-third-party-libraries)
 * [Node JS get file name from absolute path](https://stackoverflow.com/questions/19811541/nodejs-get-file-name-from-absolute-path)
