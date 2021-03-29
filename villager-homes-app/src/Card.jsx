@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Card({ villager }){
-console.log(villager)
+
   return (
     <div className="Card" class="card">
       <div class="container-left">

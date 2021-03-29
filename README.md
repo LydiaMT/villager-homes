@@ -21,3 +21,4 @@ My goal with this website is to provide an intuitive user experience where users
 * [Convert Data Between CSV And JSON With Simple JavaScript](https://www.youtube.com/watch?v=hMwKfkaCdJU)
 * [How to Download a file with node.js](https://stackoverflow.com/questions/11944932/how-to-download-a-file-with-node-js-without-using-third-party-libraries)
 * [Node JS get file name from absolute path](https://stackoverflow.com/questions/19811541/nodejs-get-file-name-from-absolute-path)
+* [How to use Checkbox inside Select Option](https://stackoverflow.com/questions/17714705/how-to-use-checkbox-inside-select-option)
