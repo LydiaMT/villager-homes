@@ -49,8 +49,15 @@ export default function Dropdown({
   }, [selections]);
 
   return (
-    <div role="button" tabIndex="-1" key={title} ref={dropdownRef} onClick={showCheckboxes} onKeyDown={showCheckboxes}>
-      <h2>Select option</h2>
+    <div
+      role="button"
+      tabIndex="-1"
+      key={title}
+      ref={dropdownRef}
+      onClick={showCheckboxes}
+      onKeyDown={showCheckboxes}
+    >
+      <h3>Click to select options...</h3>
       {
         open === true && (
         <div>
