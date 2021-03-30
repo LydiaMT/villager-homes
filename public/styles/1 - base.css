@@ -7,6 +7,19 @@ body{
   background-color: #fff;
 }
 
+h1 {
+  font-size: large;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: medium;
+}
+
+h3 {
+  font-style: italic;
+}
+
 .dropdown-wrapper {
   border: 3px solid black;
   border-radius: 10px;
