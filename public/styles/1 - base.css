@@ -7,9 +7,17 @@ body{
   background-color: #fff;
 }
 
-.card-container {
+.dropdown-wrapper {
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 285px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.card-wrapper {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 33% 33% 33%;
 }
 
 .card {
