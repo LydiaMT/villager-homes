@@ -14,7 +14,7 @@ My goal with this website is to provide an intuitive user experience where users
 
 ### Initial Wire Frame
 
-![initial website wireframe](villager-homes-app/public/img/about/Wireframe.png)
+![initial website wireframe](public/img/about/Wireframe.png)
 
 ### Sources
 * [Villager House Exterior Designs Complete List](https://animalcrossingworld.com/guides/new-horizons/villager-house-exterior-designs-complete-list/): Huge shout out to Animal Crossing World for the house exterior artwork and information.
