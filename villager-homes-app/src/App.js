@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import houseData from './data/houses.json';
 import Card from './Card';
 import Dropdown from './Dropdown';
@@ -22,27 +22,48 @@ houseData.forEach(villager => {
 })
 
 function App(){
+  const [value, setValue] = useState(null);
 
   return (
-    <div className="App" class="card-container">
-      <div>
-        <Dropdown title="House Types"   options={[...houseTypes]} />
-        <Dropdown title="House Color"   options={[...houseColor]}/>
-        <Dropdown title="Trim Color"    options={[...trimColor]}/>
-        <Dropdown title="Roof Material" options={[...roofMaterial]}/>
-        <Dropdown title="Roof Color"    options={[...roofColor]}/>
-        <Dropdown title="Door Type"     options={[...doorType]}/>
-        <Dropdown title="Door Color"    options={[...doorColor]}/>
-      </div>
-      <div class="card-container">
+    <span className="App wrapper">
+      <section className="dropdown-container">
+        <div className="dropdown-wrapper">
+          <h1>House</h1>
+          
+          <Dropdown 
+            title="House Types"
+            options={[...houseTypes]} 
+            value={value}
+            onChange={val => setValue(val)}/>
+          <h2>House Color</h2>
+          <Dropdown title="House Color"   options={[...houseColor]}/>
+          <h2>Trim Color</h2>
+          <Dropdown title="Trim Color"    options={[...trimColor]}/>
+        </div>
+        <div className="dropdown-wrapper">
+          <h1>Roof</h1>
+          <h2>Roof Material</h2>
+          <Dropdown title="Roof Material" options={[...roofMaterial]}/>
+          <h2>Roof Color</h2>
+          <Dropdown title="Roof Color"    options={[...roofColor]}/>
+        </div>
+        <div className="dropdown-wrapper">
+          <h1>Door</h1>
+          <h2>Door Type</h2>
+          <Dropdown title="Door Type"     options={[...doorType]}/>
+          <h2>Door Color</h2>
+          <Dropdown title="Door Color"    options={[...doorColor]}/>
+        </div>
+      </section>
+      <section className="card-wrapper">
         {houseData.map(villager => {
           return (<Card 
             key={villager["Villager"]}
             villager={villager}
           />);
         })}
-      </div>
-    </div>
+      </section>
+    </span>
   );
 }
 

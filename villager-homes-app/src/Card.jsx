@@ -18,4 +18,3 @@ function Card({ villager }){
 }
 
 export default Card;
-
