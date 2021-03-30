@@ -27,11 +27,15 @@
   },
   "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "requireConfigFile": false,
-    "babelOptions": {},
+    "allowImportExportEverywhere": true,
+    "sourceType": "module",
+    "requireConfigFile": true,
     "ecmaVersion": 2020,
     "ecmaFeatures": {
       "jsx": true
+    },
+    "babelOptions": {
+      "configFile": "./.babelrc"
     }
   },
   "rules": {
@@ -59,6 +63,7 @@
     "node/no-unsupported-features/es-syntax": 0,
     "optimize-regex/optimize-regex": "warn",
     "react/jsx-key": [1, { "checkFragmentShorthand": true }],
+    "react/prop-types": 0,
     "security/detect-non-literal-fs-filename": 0,
     "security/detect-object-injection": 0
   }
