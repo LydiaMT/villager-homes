@@ -16,6 +16,20 @@ My goal with this website is to provide an intuitive user experience where users
 
 ![initial website wireframe](public/img/about/Wireframe.png)
 
+### Deploy to git pages
+
+First compile the app by running build:
+
+```git
+npm run build
+```
+
+Then, deploy to git pages:
+
+```git
+git subtree push --prefix build origin gh-pages
+```
+
 ### Sources
 * [Villager House Exterior Designs Complete List](https://animalcrossingworld.com/guides/new-horizons/villager-house-exterior-designs-complete-list/): Huge shout out to Animal Crossing World for the house exterior artwork and information.
 * [Convert Data Between CSV And JSON With Simple JavaScript](https://www.youtube.com/watch?v=hMwKfkaCdJU)
