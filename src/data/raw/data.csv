@@ -50,7 +50,7 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 49,Huck,Frog,Smug,,Cabin,Black,Wood,Yellow,Thatch ,Brown,Windowed
 50,Louie,Gorilla,Jock,,Cabin,Tan,Wood,Brown,Thatch ,Brown,Windowed
 51,Lyman,Koala,Jock,,Cabin,White,Wood,Green,Tile,Brown,Wooden
-52,Mac,Dog,Jock,,Cabin,Sand,Wood,Yellow,Tile,White,Windowed
+52,Mac,Dog,Jock,,Cabin,Brown,Wood,Yellow,Tile,White,Windowed
 53,Molly,Duck,Normal,,Cabin,Tan,Wood,Brown,Thatch ,Brown,Wooden
 54,Murphy,Cub,Cranky,,Cabin,Tan,Wood,Green,Shingles,Teal,Rustic
 55,Peaches,Horse,Normal,,Cabin,Pink,Wood,Brown,Thatch ,White,Rustic
@@ -111,7 +111,7 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 110,Rizzo,Mouse,Cranky,,Country Side,Green,N/A,Black,Stone,Teal,Rustic
 111,Snooty,Anteater,Snooty,,Country Side,Pink,N/A,Purple,Tile,White,Latticework
 112,Zucker,Octopus,Lazy,,Country Side,Tan,N/A,Brown,Thatch ,Red,Rustic
-113,Winnie,Horse,Peppy,,Jungle,Grey,Brown,Beige,Stone,Beige,Rustic
+113,Winnie,Horse,Peppy,,Jungle,Green,Brown,Beige,Stone,Beige,Rustic
 114,Alice,Koala,Normal,,Jungle,Beige,White,Orange,Thatch ,White,Rustic
 115,Alli,Crocodile,Snooty,,Jungle,Beige,White,Blue,Stone,White,Rustic
 116,Annalise,Horse,Snooty,,Jungle,Tan,Brown,Orange,Thatch ,White,Latticework
@@ -132,7 +132,7 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 131,O'Hare,Rabbit,Smug,,Jungle,Tan,Brown,Brown,Stone,Brown,Wooden
 132,Papi,Horse,Lazy,,Jungle,Beige,Red,Brown,Thatch ,Beige,Windowed
 133,Pierce,Eagle,Jock,,Jungle,Beige,White,Blue,Stone,Teal,Rustic
-134,Plucky,Chicken,Uchi,,Jungle,Grey,Brown,Black,Thatch ,Beige,Rustic
+134,Plucky,Chicken,Uchi,,Jungle,Green,Brown,Black,Thatch ,Beige,Rustic
 135,Prince,Frog,Lazy,,Jungle,Yellow,Brown,Green,Tile,Beige,Rustic
 136,Rex,Lion,Lazy,,Jungle,Yellow,Brown,Black,Thatch ,Brown,Latticework
 137,Rolf,Tiger,Cranky,,Jungle,Beige,White,White,Thatch ,Grey,Latticework
@@ -311,11 +311,11 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 310,Angus,Bull,Cranky,,Terracotta ,Red,Grey,Black,Stone,Black,Iron
 311,Antonio,Anteater,Jock,,Terracotta ,White,Beige,Black,Stone,Beige,Wooden
 312,Apple,Hamster,Peppy,,Terracotta ,Pink,Beige,Red,Tile,Brown,Basic
-313,Avery,Eagle,Cranky,,Terracotta ,Grey,Brown,Grey,Stone,Brown,Latticework
-314,Bertha,Hippo,Normal,,Terracotta ,Aqua,Green,Blue,Stone,Teal,Rustic
+313,Avery,Eagle,Cranky,,Terracotta ,Brown,Brown,Grey,Stone,Brown,Latticework
+314,Bertha,Hippo,Normal,,Terracotta ,Green,Green,Blue,Stone,Teal,Rustic
 315,Cally,Squirrel,Normal,,Terracotta ,Green,Green,Grey,Tile,Beige,Windowed
 316,Clay,Hamster,Lazy,,Terracotta ,Orange,Yellow,Brown,Thatch ,Red,Rustic
-317,Cole,Rabbit,Lazy,,Terracotta ,Grey,Brown,White,Thatch ,Black,Vertical-panes
+317,Cole,Rabbit,Lazy,,Terracotta ,Brown,Brown,White,Thatch ,Black,Vertical-panes
 318,Cookie,Dog,Peppy,,Terracotta ,White,Beige,Pink,Tile,Brown,Windowed
 319,Deli,Monkey,Lazy,,Terracotta ,Sand,Grey,Brown,Tile,Black,Simple
 320,Flora,Ostrich,Peppy,,Terracotta ,Pink,Beige,White,Tile,Pink,Iron grill
@@ -328,14 +328,14 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 327,Melba,Koala,Normal,,Terracotta ,White,Beige,Orange,Thatch ,Brown,Windowed
 328,Norma,Cow,Normal,,Terracotta ,Pink,Beige,White,Thatch ,White,Rustic
 329,Peck,Bird,Jock,,Terracotta ,Sand,Grey,Brown,Tile,Red,Wooden
-330,Sprinkle,Penguin,Peppy,,Terracotta ,Aqua,Green,White,Stone,Blue,Wooden
+330,Sprinkle,Penguin,Peppy,,Terracotta ,Green,Green,White,Stone,Blue,Wooden
 331,Sterling,Eagle,Jock,,Terracotta ,Red,Grey,Black,Stone,Yellow,Iron
-332,Tabby,Cat,Peppy,,Terracotta ,Grey,Brown,Brown,Thatch ,Yellow,Vertical-panes
+332,Tabby,Cat,Peppy,,Terracotta ,Brown,Brown,Brown,Thatch ,Yellow,Vertical-panes
 333,Tammi,Monkey,Peppy,,Terracotta ,Sand,Grey,Black,Tile,White,Vertical-panes
 334,Tutu,Bear,Peppy,,Terracotta ,Pink,Beige,White,Thatch ,Pink,Metal-accent
 335,Violet,Gorilla,Snooty,,Terracotta ,Pink,Beige,Purple,Stone,Black,Metal-accent
 336,Wade,Penguin,Lazy,,Terracotta ,Sand,Grey,Grey,Tile,White,Basic
-337,Zell,Deer,Smug,,Terracotta ,Grey,Brown,Grey,Stone,White,Wooden
+337,Zell,Deer,Smug,,Terracotta ,Brown,Brown,Grey,Stone,White,Wooden
 338,Annalisa,Anteater,Normal,,Traditional I,White,Beige,Purple,Tile,White,Zen
 339,Buzz,Eagle,Cranky,,Traditional I,Tan,Brown,Brown,Stone,Brown,Latticework
 340,Coco,Rabbit,Normal,,Traditional I,Green,Brown,Beige,Thatch ,Beige,Rustic

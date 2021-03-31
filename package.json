@@ -62,7 +62,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "PUBLIC_URL=https://lydiamt.github.io/villager-homes/ node scripts/build.js",
     "test": "node scripts/test.js",
     "convert-data": "node src/data/convert.js"
   },
