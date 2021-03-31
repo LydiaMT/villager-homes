@@ -1,5 +1,4 @@
 import React, { useRef, useState, useEffect } from 'react';
-// , { useState , useEffect, useRef }
 
 export default function Dropdown({
   title = '',
@@ -50,6 +49,7 @@ export default function Dropdown({
 
   return (
     <div
+      className="dropdown"
       role="button"
       tabIndex="-1"
       key={title}
@@ -57,13 +57,24 @@ export default function Dropdown({
       onClick={showCheckboxes}
       onKeyDown={showCheckboxes}
     >
-      <h3>Click to select options...</h3>
+      <div className="dropdown-control">
+        <h3>Select options...</h3>
+        <div className="dropdown-arrow-wrapper">
+          <span className="dropdown-arrow"> </span>
+        </div>
+      </div>
       {
         open === true && (
-        <div>
+        <div className="checkboxes">
           {options.map((option) => (
             <label htmlFor={option} key={option}>
-              <input onChange={handleChange(option)} type="checkbox" id={option} value={option} checked={isSelected(option)} />
+              <input
+                onChange={handleChange(option)}
+                type="checkbox"
+                id={option}
+                value={option}
+                checked={isSelected(option)}
+              />
               {option}
             </label>
           ))}

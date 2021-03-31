@@ -1,53 +1,44 @@
-body{
+body {
   margin: 0;
   padding: 0;
   height: 100vh;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  background-color: #fff;
-}
+  background-color: #fff; }
 
 h1 {
   font-size: large;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 h2 {
-  font-size: medium;
-}
+  font-size: medium; }
 
 h3 {
-  font-style: italic;
-}
+  font-style: italic; }
 
 .dropdown-wrapper {
   border: 3px solid black;
   border-radius: 10px;
-  width: 1100px;
+  width: 285px;
   margin: 5px;
-  padding: 5px;
-}
+  padding: 5px; }
 
 .card-wrapper {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-}
+  grid-template-columns: 33% 33% 33%; }
 
 .card {
   display: flex;
-  border: 3px solid rgb(53, 117, 235);
+  border: 3px solid #3575eb;
   border-radius: 10px;
   min-width: 285px;
   max-width: 320px;
   margin: 5px;
   padding: 5px;
-  background-color: rgb(190,232,147);
-}
+  background-color: #bee893; }
 
 .house-img {
-  width: 200px;
-}
+  width: 200px; }
 
 .villager-img {
-  width: 70px;
-}
+  width: 70px; }

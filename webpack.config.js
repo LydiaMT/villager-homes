@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const config = {
   mode: 'development',
@@ -8,7 +9,6 @@ const config = {
   output: {
     path: path.resolve(__dirname, './build'),
     filename: '[name].js',
-    sourceMapFilename: '[name].map.js',
   },
   resolve: {
     extensions: ['.mjs', '.ts', '.tsx', '.js', '.jsx'],
@@ -19,6 +19,10 @@ const config = {
         test: /.(ts|tsx|js|jsx)$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
@@ -35,6 +39,13 @@ const config = {
   optimization: {
     minimize: false,
   },
+  plugins: [
+    new CopyPlugin({
+      patterns: [
+        { from: 'public', to: 'build' },
+      ],
+    }),
+  ],
 };
 
 module.exports = config;
