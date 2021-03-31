@@ -42,7 +42,7 @@ const config = {
   plugins: [
     new CopyPlugin({
       patterns: [
-        { from: 'public', to: 'build' },
+        { from: 'public', to: '.' },
       ],
     }),
   ],
