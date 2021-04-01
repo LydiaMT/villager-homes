@@ -4,10 +4,28 @@
   background-color: rgb(167, 178, 179);
   overflow: hidden;
   cursor: pointer; 
+  padding: 2px;
+}
+
+.dropdown-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-arrow-wrapper {
+  height: 20px;
+  width: 20px;
 }
 
 .dropdown-arrow {
-  background-image: url(img/about/arrow2.png); }
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url(../img/about/arrow.svg); 
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 .checkboxes {
   border: 1px #dadada solid; }
