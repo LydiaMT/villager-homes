@@ -7,9 +7,10 @@ export default function Card({ villager }) {
         <img className="house-img" alt={`${villager.Villager}'s house`} src={`img/homes/${villager.Villager} - ${villager.Personality}.png`} />
       </div>
       <div className="container-right">
-        <h1>{villager.Villager}</h1>
-        <h2>{villager.Animal}</h2>
-        <h2>{villager.Personality}</h2>
+        <h1 className="villager-text">{villager.Villager}</h1>
+        <h2 className="villager-text">{villager.Animal}</h2>
+        <h2 className="villager-text">{villager.Personality}</h2>
+        <br />
         <img className="villager-img" alt={`${villager.Villager}'s icon`} src={`img/villagers/${villager.Villager}_NH_Villager_Icon.png`} />
       </div>
     </div>

@@ -36,3 +36,5 @@ git subtree push --prefix build origin gh-pages
 * [How to Download a file with node.js](https://stackoverflow.com/questions/11944932/how-to-download-a-file-with-node-js-without-using-third-party-libraries)
 * [Node JS get file name from absolute path](https://stackoverflow.com/questions/19811541/nodejs-get-file-name-from-absolute-path)
 * [How to use Checkbox inside Select Option](https://stackoverflow.com/questions/17714705/how-to-use-checkbox-inside-select-option)
+* [Twitter, Instagram, and dropdown arrow icons by freepik](https://www.freepik.com/)
+* [Github Icon by Pixel perfect](https://www.flaticon.com/authors/pixel-perfect)

@@ -27,7 +27,13 @@ function Card({
     src: `img/homes/${villager.Villager} - ${villager.Personality}.png`
   })), /*#__PURE__*/react.createElement("div", {
     className: "container-right"
-  }, /*#__PURE__*/react.createElement("h1", null, villager.Villager), /*#__PURE__*/react.createElement("h2", null, villager.Animal), /*#__PURE__*/react.createElement("h2", null, villager.Personality), /*#__PURE__*/react.createElement("img", {
+  }, /*#__PURE__*/react.createElement("h1", {
+    className: "villager-text"
+  }, villager.Villager), /*#__PURE__*/react.createElement("h2", {
+    className: "villager-text"
+  }, villager.Animal), /*#__PURE__*/react.createElement("h2", {
+    className: "villager-text"
+  }, villager.Personality), /*#__PURE__*/react.createElement("br", null), /*#__PURE__*/react.createElement("img", {
     className: "villager-img",
     alt: `${villager.Villager}'s icon`,
     src: `img/villagers/${villager.Villager}_NH_Villager_Icon.png`
@@ -180,8 +186,8 @@ const App = () => {
   };
 
   const filteredData = filterData(houses_namespaceObject, filters);
-  return /*#__PURE__*/react.createElement("span", {
-    className: "App wrapper"
+  return /*#__PURE__*/react.createElement("div", {
+    className: "App"
   }, /*#__PURE__*/react.createElement("section", {
     className: "dropdown-container"
   }, /*#__PURE__*/react.createElement("div", {

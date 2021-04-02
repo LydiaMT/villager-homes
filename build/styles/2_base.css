@@ -1,46 +1,210 @@
+/* font-family: 'Nunito', sans-serif;
+Light 300
+Regular 400
+Semi-bold 600
+Extra-bold 800 */
+
+
+/* ===== cellphone ===== */
+@media screen and (max-width: 600px) {
+  .App{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .card-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+  }
+}
+
+/* ===== tablet ===== */
+@media screen and (max-width: 991px) {
+  .App {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  .card-wrapper {
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+  }
+}
+
+/* ===== laptop ===== */
+@media screen and (max-width: 1500px) {
+  .App {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  .card-wrapper {
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+  }
+}
+
+/* ===== monitor ===== */
+@media screen and (min-width: 1501px) {
+  .App {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+  .card-wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  background-color: #fff; }
-
-h1 {
-  font-size: large;
-  font-weight: bold; }
-
-h2 {
-  font-size: medium; }
-
-h3 {
-  font-style: italic; 
-  display: inline;
+  font-family: 'Nunito', sans-serif;
+  background-image: url(../img/layout/bg3.png); 
+  background-attachment: fixed;
 }
 
+/* ===== headers & text===== */
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: large;
+  font-weight: 800; 
+  color: rgb(107, 107, 101);
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: medium; 
+  color: rgb(107, 107, 101);
+}
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+  font-style: italic; 
+  display: inline;
+  color: rgb(27, 27, 27);
+}
+
+.title {
+  font-size: 50px;
+  padding-top: 20px;
+  color: rgb( 29, 132, 120);
+  text-shadow: 1px 1px #000000;
+}
+
+.subtitle {
+  font-size: 40px;
+  color: rgb( 29, 132, 120);
+  text-shadow: 1px 1px #000000;
+}
+
+.dropdown-wrapper h2 {
+  margin: 10px 0 3px 0;
+}
+
+.villager-text {
+  color: rgb(1,86,119);
+}
+
+/* ===== description blurb ===== */
+header {
+  text-align: center;
+}
+
+.description{
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70%;
+  background-color: #d6f9f7;
+  border: 5px rgb(255, 255, 255) solid;
+  border-radius: 20px;
+  font-size: 25px;
+  padding: 30px;
+  box-shadow: 3px 3px #55bcae;
+  color: rgb(107, 107, 101);
+}
+
+.social {
+  height: 30px;
+  width: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ===== dropdown menu ===== */
 .dropdown-wrapper {
-  border: 3px solid black;
+  border: rgb(255, 255, 255) 5px solid;
+  box-shadow: 3px 3px #55bcae;  
   border-radius: 10px;
   width: 285px;
   margin: 5px;
-  padding: 5px; }
+  padding: 5px;
+  background-color: #d6f9f7;
+}
 
-.card-wrapper {
-  display: grid;
-  grid-template-columns: 33% 33% 33%; }
+.dropdown {
+  border-radius: 5px;
+  border: 3px solid rgb(29, 132, 120 );
+  background-color: rgb(146,237, 216 );
+  overflow: hidden;
+  cursor: pointer; 
+  padding: 2px;
+}
 
-.card {
+.dropdown-control {
   display: flex;
-  border: 3px solid #3575eb;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-arrow-wrapper {
+  height: 20px;
+  width: 20px;
+  margin-right: 2px;
+}
+
+.dropdown-arrow {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url(../img/layout/down-arrow.svg); 
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.checkboxes label {
+  display: block; 
+}
+
+.checkboxes label:hover {
+  background-color: rgb( 29, 132, 120);
+  color: white;
+}
+
+/* ===== villager cards ===== */
+.card {
+  background-color: rgb( 192, 218, 255);
+  border: 5px rgb(255, 255, 255) solid;
+  box-shadow: 3px 3px rgb( 89, 123, 214);  
+  display: flex;
   border-radius: 10px;
-  min-width: 285px;
-  max-width: 320px;
+  width: 300px;
   margin: 5px;
   padding: 5px;
-  background-color: #bee893; }
+  position: relative;
+}
+
+.container-right {
+  position: absolute;
+  bottom: 43px;
+  right: 13px;
+}
 
 .house-img {
   width: 200px; }
 
 .villager-img {
-  width: 70px; }
+  width: 70px;
+}

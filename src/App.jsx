@@ -67,7 +67,7 @@ const App = () => {
   const filteredData = filterData(houseData, filters);
 
   return (
-    <span className="App wrapper">
+    <div className="App">
       <section className="dropdown-container">
         <div className="dropdown-wrapper">
           <h1>House</h1>
@@ -129,7 +129,7 @@ const App = () => {
           />
         ))}
       </section>
-    </span>
+    </div>
   );
 };
 
