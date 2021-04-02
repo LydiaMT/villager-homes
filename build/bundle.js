@@ -89,12 +89,13 @@ function Dropdown({
   }, [selections]);
   return /*#__PURE__*/react.createElement("div", {
     className: "dropdown",
-    role: "button",
-    tabIndex: "-1",
+    role: "tab",
+    tabIndex: "0",
     key: title,
     ref: dropdownRef,
     onClick: showCheckboxes,
-    onKeyDown: showCheckboxes
+    onKeyDown: showCheckboxes,
+    onFocus: showCheckboxes
   }, /*#__PURE__*/react.createElement("div", {
     className: "dropdown-control"
   }, /*#__PURE__*/react.createElement("h3", null, "Select options..."), /*#__PURE__*/react.createElement("div", {

@@ -50,12 +50,13 @@ export default function Dropdown({
   return (
     <div
       className="dropdown"
-      role="button"
-      tabIndex="-1"
+      role="tab"
+      tabIndex="0"
       key={title}
       ref={dropdownRef}
       onClick={showCheckboxes}
       onKeyDown={showCheckboxes}
+      onFocus={showCheckboxes}
     >
       <div className="dropdown-control">
         <h3>Select options...</h3>
