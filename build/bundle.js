@@ -18,7 +18,7 @@ function Card({
   villager
 }) {
   return /*#__PURE__*/react.createElement("div", {
-    className: "Card card"
+    className: "Card"
   }, /*#__PURE__*/react.createElement("div", {
     className: "container-left"
   }, /*#__PURE__*/react.createElement("img", {
@@ -33,7 +33,7 @@ function Card({
     className: "villager-text"
   }, villager.Animal), /*#__PURE__*/react.createElement("h2", {
     className: "villager-text"
-  }, villager.Personality), /*#__PURE__*/react.createElement("br", null), /*#__PURE__*/react.createElement("img", {
+  }, villager.Personality), /*#__PURE__*/react.createElement("img", {
     className: "villager-img",
     alt: `${villager.Villager}'s icon`,
     src: `img/villagers/${villager.Villager}_NH_Villager_Icon.png`
