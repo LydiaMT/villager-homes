@@ -10,11 +10,22 @@
     color: rgb( 29, 132, 120);
     text-shadow: 1px 1px #000000;
   }
-  
   .subtitle {
     font-size: 30px;
     color: rgb( 29, 132, 120);
     text-shadow: 1px 1px #000000;
+  }
+  .description{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 84%;
+    background-color: #d6f9f7;
+    border: 5px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+    box-shadow: 3px 3px #55bcae;
+    color: rgb(107, 107, 101);
   }
   p {
     font-size: 15px;
@@ -26,7 +37,6 @@
   .villager-text{
     font-size: 11px;
   }
-
 }
 
 /* ===== tablet ===== */
@@ -67,6 +77,9 @@
 
 /* ===== big screen ===== */
 @media screen and (min-width: 3001px) {
+  main {
+    max-width: inherit;
+  }
   .App {
     display: grid;
     grid-template-columns: 10% 90%;

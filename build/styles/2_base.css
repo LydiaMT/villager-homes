@@ -40,7 +40,7 @@ h3 {
   font-family: 'Nunito', sans-serif;
   font-style: italic; 
   display: inline;
-  color: rgb(27, 27, 27);
+  color: rgb(21, 97, 88);
 }
 
 .title {
@@ -127,15 +127,17 @@ a {
 
 .dropdown-arrow {
   display: inline-block;
-  height: 20px;
-  width: 20px;
-  background-image: url(../img/layout/down-arrow.svg); 
-  background-size: contain;
+  height: 12px;
+  width: 12px;
+  background-image: url(../img/layout/down-arrow.svg);
+  background-size: cover;
   background-repeat: no-repeat;
+  margin: 4px;
 }
 
 .checkboxes label {
   display: block; 
+  color: rgb(21, 97, 88);
 }
 
 .checkboxes label:hover {
@@ -150,11 +152,11 @@ a {
   border: 5px rgb(255, 255, 255) solid;
   box-shadow: 3px 3px rgb( 89, 123, 214);  
   border-radius: 10px;
-  width: 90%;
-  max-height: 160px;
-  max-width: 270px;
-  margin: 10px;
+  margin: 5px;
   padding: 5px;
+  width: 90%;
+  max-height: 180px;
+  max-width: 270px;
   position: relative;
   box-sizing: border-box;
 }
