@@ -39,6 +39,10 @@ Then, deploy to git pages:
 
 ```git
 git subtree push --prefix build origin gh-pages
+
+or
+
+git push origin `git subtree split --prefix build main`:gh-pages --force  
 ```
 
 ### Sources
