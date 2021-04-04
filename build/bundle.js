@@ -89,7 +89,7 @@ function Dropdown({
   }, [selections]);
   return /*#__PURE__*/react.createElement("div", {
     className: "dropdown",
-    role: "tab",
+    role: "tablist",
     tabIndex: "0",
     key: title,
     ref: dropdownRef,
@@ -108,6 +108,7 @@ function Dropdown({
     htmlFor: option,
     key: option
   }, /*#__PURE__*/react.createElement("input", {
+    role: "tab",
     onChange: handleChange(option),
     type: "checkbox",
     id: option,

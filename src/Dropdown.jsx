@@ -50,7 +50,7 @@ export default function Dropdown({
   return (
     <div
       className="dropdown"
-      role="tab"
+      role="tablist"
       tabIndex="0"
       key={title}
       ref={dropdownRef}
@@ -70,6 +70,7 @@ export default function Dropdown({
           {options.map((option) => (
             <label htmlFor={option} key={option}>
               <input
+                role="tab"
                 onChange={handleChange(option)}
                 type="checkbox"
                 id={option}

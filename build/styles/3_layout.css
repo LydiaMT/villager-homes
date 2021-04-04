@@ -30,12 +30,22 @@
   p {
     font-size: 15px;
   }
+  .dropdown-wrapper {
+    width: 91.5%;;
+  }
+  .Card {
+    width: 95%;
+  }
   .card-wrapper {
     display: grid;
     grid-template-columns: 50% 50%; 
   }
+  .house-img {
+    width: 95%;
+    min-width: 80px;
+  }
   .villager-text{
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 
