@@ -47,7 +47,6 @@
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-xss": "^0.1.10",
     "eslint-webpack-plugin": "^2.5.3",
-    "node-sass": "^5.0.0",
     "style-loader": "^2.0.0",
     "webpack": "^5",
     "webpack-bundle-analyzer": "^4.4.0",
