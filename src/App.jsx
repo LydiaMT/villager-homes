@@ -10,6 +10,8 @@ const roofMaterial = new Set();
 const roofColor = new Set();
 const doorType = new Set();
 const doorColor = new Set();
+const animalType = new Set();
+const personalityType = new Set();
 
 houseData.forEach((villager) => {
   houseTypes.add(villager['House Type']);
@@ -19,6 +21,8 @@ houseData.forEach((villager) => {
   roofColor.add(villager['Roof Color']);
   doorType.add(villager['Door Style']);
   doorColor.add(villager['Door Color']);
+  animalType.add(villager.Animal);
+  personalityType.add(villager.Personality);
 });
 
 const filterData = (data, filters) => data.filter((villager) => {
@@ -43,6 +47,12 @@ const filterData = (data, filters) => data.filter((villager) => {
   if (filters.doorColor.length > 0 && !filters.doorColor.includes(villager['Door Color'])) {
     return false;
   }
+  if (filters.animalType.length > 0 && !filters.animalType.includes(villager.Animal)) {
+    return false;
+  }
+  if (filters.personalityType.length > 0 && !filters.personalityType.includes(villager.Personality)) {
+    return false;
+  }
   return true;
 });
 
@@ -55,6 +65,8 @@ const App = () => {
     roofColor: [],
     doorType: [],
     doorColor: [],
+    animalType: [],
+    personalityType: [],
   });
 
   const setFilter = (filter = '') => (selected = []) => {
@@ -73,20 +85,23 @@ const App = () => {
           <h1>House</h1>
           <h2>House Type</h2>
           <Dropdown
+            role="tablist"
             title="House Types"
-            options={[...houseTypes]}
+            options={[...houseTypes].sort()}
             onChange={setFilter('houseTypes')}
           />
           <h2>House Color</h2>
           <Dropdown
+            role="tablist"
             title="House Color"
-            options={[...houseColor]}
+            options={[...houseColor].sort()}
             onChange={setFilter('houseColor')}
           />
           <h2>Trim Color</h2>
           <Dropdown
+            role="tablist"
             title="Trim Color"
-            options={[...trimColor]}
+            options={[...trimColor].sort()}
             onChange={setFilter('trimColor')}
           />
         </div>
@@ -94,14 +109,16 @@ const App = () => {
           <h1>Roof</h1>
           <h2>Roof Material</h2>
           <Dropdown
+            role="tablist"
             title="Roof Material"
-            options={[...roofMaterial]}
+            options={[...roofMaterial].sort()}
             onChange={setFilter('roofMaterial')}
           />
           <h2>Roof Color</h2>
           <Dropdown
+            role="tablist"
             title="Roof Color"
-            options={[...roofColor]}
+            options={[...roofColor].sort()}
             onChange={setFilter('roofColor')}
           />
         </div>
@@ -109,15 +126,34 @@ const App = () => {
           <h1>Door</h1>
           <h2>Door Type</h2>
           <Dropdown
+            role="tablist"
             title="Door Type"
-            options={[...doorType]}
+            options={[...doorType].sort()}
             onChange={setFilter('doorType')}
           />
           <h2>Door Color</h2>
           <Dropdown
+            role="tablist"
             title="Door Color"
-            options={[...doorColor]}
+            options={[...doorColor].sort()}
             onChange={setFilter('doorColor')}
+          />
+        </div>
+        <div className="dropdown-wrapper">
+          <h1>Villagers</h1>
+          <h2>Animal</h2>
+          <Dropdown
+            role="tablist"
+            title="Animal"
+            options={[...animalType].sort()}
+            onChange={setFilter('animalType')}
+          />
+          <h2>Personality</h2>
+          <Dropdown
+            role="tablist"
+            title="Personality"
+            options={[...personalityType].sort()}
+            onChange={setFilter('personalityType')}
           />
         </div>
       </section>

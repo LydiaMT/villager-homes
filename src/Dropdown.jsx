@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 export default function Dropdown({
   title = '',
@@ -8,21 +8,12 @@ export default function Dropdown({
   const [open, setOpen] = useState(false);
   const [selections, setSelections] = useState([]);
 
-  const dropdownRef = useRef(null);
-  useEffect(() => {
-    const handleDocumentClick = (event) => {
-      if (dropdownRef && dropdownRef.current && !dropdownRef.current.contains(event.target) && open) {
-        setOpen(false);
-      }
-    };
-    document.addEventListener('click', handleDocumentClick, false);
-    return function cleanup() {
-      document.removeEventListener('click', handleDocumentClick, false);
-    };
-  });
-
-  const showCheckboxes = () => {
-    setOpen(true);
+  const toggleDropdown = () => {
+    if (open) {
+      setOpen(false);
+    } else {
+      setOpen(true);
+    }
   };
 
   const addSelections = (selection) => {
@@ -53,16 +44,15 @@ export default function Dropdown({
       role="tablist"
       tabIndex="0"
       key={title}
-      ref={dropdownRef}
-      onClick={showCheckboxes}
-      onKeyDown={showCheckboxes}
-      onFocus={showCheckboxes}
     >
-      <div className="dropdown-control">
+      <div
+        role="button"
+        tabIndex="0"
+        className="dropdown-control"
+        onClick={toggleDropdown}
+        onKeyDown={toggleDropdown}
+      >
         <h3>Select options...</h3>
-        <div className="dropdown-arrow-wrapper">
-          <span className="dropdown-arrow"> </span>
-        </div>
       </div>
       {
         open === true && (

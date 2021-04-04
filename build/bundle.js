@@ -48,22 +48,13 @@ function Dropdown({
 }) {
   const [open, setOpen] = (0,react.useState)(false);
   const [selections, setSelections] = (0,react.useState)([]);
-  const dropdownRef = (0,react.useRef)(null);
-  (0,react.useEffect)(() => {
-    const handleDocumentClick = event => {
-      if (dropdownRef && dropdownRef.current && !dropdownRef.current.contains(event.target) && open) {
-        setOpen(false);
-      }
-    };
 
-    document.addEventListener('click', handleDocumentClick, false);
-    return function cleanup() {
-      document.removeEventListener('click', handleDocumentClick, false);
-    };
-  });
-
-  const showCheckboxes = () => {
-    setOpen(true);
+  const toggleDropdown = () => {
+    if (open) {
+      setOpen(false);
+    } else {
+      setOpen(true);
+    }
   };
 
   const addSelections = selection => {
@@ -91,18 +82,14 @@ function Dropdown({
     className: "dropdown",
     role: "tablist",
     tabIndex: "0",
-    key: title,
-    ref: dropdownRef,
-    onClick: showCheckboxes,
-    onKeyDown: showCheckboxes,
-    onFocus: showCheckboxes
+    key: title
   }, /*#__PURE__*/react.createElement("div", {
-    className: "dropdown-control"
-  }, /*#__PURE__*/react.createElement("h3", null, "Select options..."), /*#__PURE__*/react.createElement("div", {
-    className: "dropdown-arrow-wrapper"
-  }, /*#__PURE__*/react.createElement("span", {
-    className: "dropdown-arrow"
-  }, " "))), open === true && /*#__PURE__*/react.createElement("div", {
+    role: "button",
+    tabIndex: "0",
+    className: "dropdown-control",
+    onClick: toggleDropdown,
+    onKeyDown: toggleDropdown
+  }, /*#__PURE__*/react.createElement("h3", null, "Select options...")), open === true && /*#__PURE__*/react.createElement("div", {
     className: "checkboxes"
   }, options.map(option => /*#__PURE__*/react.createElement("label", {
     htmlFor: option,
@@ -128,6 +115,8 @@ const roofMaterial = new Set();
 const roofColor = new Set();
 const doorType = new Set();
 const doorColor = new Set();
+const animalType = new Set();
+const personalityType = new Set();
 houses_namespaceObject.forEach(villager => {
   houseTypes.add(villager['House Type']);
   houseColor.add(villager['House Color']);
@@ -136,6 +125,8 @@ houses_namespaceObject.forEach(villager => {
   roofColor.add(villager['Roof Color']);
   doorType.add(villager['Door Style']);
   doorColor.add(villager['Door Color']);
+  animalType.add(villager.Animal);
+  personalityType.add(villager.Personality);
 });
 
 const filterData = (data, filters) => data.filter(villager => {
@@ -167,6 +158,14 @@ const filterData = (data, filters) => data.filter(villager => {
     return false;
   }
 
+  if (filters.animalType.length > 0 && !filters.animalType.includes(villager.Animal)) {
+    return false;
+  }
+
+  if (filters.personalityType.length > 0 && !filters.personalityType.includes(villager.Personality)) {
+    return false;
+  }
+
   return true;
 });
 
@@ -178,7 +177,9 @@ const App = () => {
     roofMaterial: [],
     roofColor: [],
     doorType: [],
-    doorColor: []
+    doorColor: [],
+    animalType: [],
+    personalityType: []
   });
 
   const setFilter = (filter = '') => (selected = []) => {
@@ -195,37 +196,56 @@ const App = () => {
   }, /*#__PURE__*/react.createElement("div", {
     className: "dropdown-wrapper"
   }, /*#__PURE__*/react.createElement("h1", null, "House"), /*#__PURE__*/react.createElement("h2", null, "House Type"), /*#__PURE__*/react.createElement(Dropdown, {
+    role: "tablist",
     title: "House Types",
-    options: [...houseTypes],
+    options: [...houseTypes].sort(),
     onChange: setFilter('houseTypes')
   }), /*#__PURE__*/react.createElement("h2", null, "House Color"), /*#__PURE__*/react.createElement(Dropdown, {
+    role: "tablist",
     title: "House Color",
-    options: [...houseColor],
+    options: [...houseColor].sort(),
     onChange: setFilter('houseColor')
   }), /*#__PURE__*/react.createElement("h2", null, "Trim Color"), /*#__PURE__*/react.createElement(Dropdown, {
+    role: "tablist",
     title: "Trim Color",
-    options: [...trimColor],
+    options: [...trimColor].sort(),
     onChange: setFilter('trimColor')
   })), /*#__PURE__*/react.createElement("div", {
     className: "dropdown-wrapper"
   }, /*#__PURE__*/react.createElement("h1", null, "Roof"), /*#__PURE__*/react.createElement("h2", null, "Roof Material"), /*#__PURE__*/react.createElement(Dropdown, {
+    role: "tablist",
     title: "Roof Material",
-    options: [...roofMaterial],
+    options: [...roofMaterial].sort(),
     onChange: setFilter('roofMaterial')
   }), /*#__PURE__*/react.createElement("h2", null, "Roof Color"), /*#__PURE__*/react.createElement(Dropdown, {
+    role: "tablist",
     title: "Roof Color",
-    options: [...roofColor],
+    options: [...roofColor].sort(),
     onChange: setFilter('roofColor')
   })), /*#__PURE__*/react.createElement("div", {
     className: "dropdown-wrapper"
   }, /*#__PURE__*/react.createElement("h1", null, "Door"), /*#__PURE__*/react.createElement("h2", null, "Door Type"), /*#__PURE__*/react.createElement(Dropdown, {
+    role: "tablist",
     title: "Door Type",
-    options: [...doorType],
+    options: [...doorType].sort(),
     onChange: setFilter('doorType')
   }), /*#__PURE__*/react.createElement("h2", null, "Door Color"), /*#__PURE__*/react.createElement(Dropdown, {
+    role: "tablist",
     title: "Door Color",
-    options: [...doorColor],
+    options: [...doorColor].sort(),
     onChange: setFilter('doorColor')
+  })), /*#__PURE__*/react.createElement("div", {
+    className: "dropdown-wrapper"
+  }, /*#__PURE__*/react.createElement("h1", null, "Villagers"), /*#__PURE__*/react.createElement("h2", null, "Animal"), /*#__PURE__*/react.createElement(Dropdown, {
+    role: "tablist",
+    title: "Animal",
+    options: [...animalType].sort(),
+    onChange: setFilter('animalType')
+  }), /*#__PURE__*/react.createElement("h2", null, "Personality"), /*#__PURE__*/react.createElement(Dropdown, {
+    role: "tablist",
+    title: "Personality",
+    options: [...personalityType].sort(),
+    onChange: setFilter('personalityType')
   }))), /*#__PURE__*/react.createElement("section", {
     className: "card-wrapper"
   }, filteredData.map(villager => /*#__PURE__*/react.createElement(Card, {

@@ -18,7 +18,7 @@
   .description{
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 84%;
+    width: 86%;
     background-color: #d6f9f7;
     border: 5px rgb(255, 255, 255) solid;
     border-radius: 10px;
@@ -38,6 +38,7 @@
   }
   .card-wrapper {
     display: grid;
+    grid-auto-rows: max-content;
     grid-template-columns: 50% 50%; 
   }
   .house-img {
@@ -57,6 +58,7 @@
   }
   .card-wrapper {
     display: grid;
+    grid-auto-rows: max-content;
     grid-template-columns: 50% 50%; 
   }
 }
@@ -69,6 +71,7 @@
   }
   .card-wrapper {
     display: grid;
+    grid-auto-rows: max-content;
     grid-template-columns: 33% 33% 33%; 
   }
 }
@@ -81,6 +84,7 @@
   }
   .card-wrapper {
     display: grid;
+    grid-auto-rows: max-content;
     grid-template-columns: 25% 25% 25% 25%; 
   }
 }
@@ -96,6 +100,7 @@
   }
   .card-wrapper {
     display: grid;
+    grid-auto-rows: max-content;
     grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%; 
   }
 }
