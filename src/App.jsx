@@ -3,15 +3,16 @@ import houseData from './data/houses.json';
 import Card from './Card.jsx';
 import Dropdown from './Dropdown.jsx';
 
-const houseTypes = new Set();
-const houseColor = new Set();
-const trimColor = new Set();
-const roofMaterial = new Set();
-const roofColor = new Set();
-const doorType = new Set();
-const doorColor = new Set();
-const animalType = new Set();
-const personalityType = new Set();
+// using Set() becuase we only want one type of thing
+let houseTypes = new Set();
+let houseColor = new Set();
+let trimColor = new Set();
+let roofMaterial = new Set();
+let roofColor = new Set();
+let doorType = new Set();
+let doorColor = new Set();
+let animalType = new Set();
+let personalityType = new Set();
 
 houseData.forEach((villager) => {
   houseTypes.add(villager['House Type']);
@@ -25,6 +26,18 @@ houseData.forEach((villager) => {
   personalityType.add(villager.Personality);
 });
 
+// converting back to a sorted array
+houseTypes = [...houseTypes].sort();
+houseColor = [...houseColor].sort();
+trimColor = [...trimColor].sort();
+roofMaterial = [...roofMaterial].sort();
+roofColor = [...roofColor].sort();
+doorType = [...doorType].sort();
+doorColor = [...doorColor].sort();
+animalType = [...animalType].sort();
+personalityType = [...personalityType].sort();
+
+// filtering mechanic in dropdowns
 const filterData = (data, filters) => data.filter((villager) => {
   if (filters.houseTypes.length > 0 && !filters.houseTypes.includes(villager['House Type'])) {
     return false;
@@ -56,6 +69,7 @@ const filterData = (data, filters) => data.filter((villager) => {
   return true;
 });
 
+// App render
 const App = () => {
   const [filters, setFilters] = useState({
     houseTypes: [],
@@ -87,21 +101,21 @@ const App = () => {
           <Dropdown
             role="tablist"
             title="House Types"
-            options={[...houseTypes].sort()}
+            options={houseTypes}
             onChange={setFilter('houseTypes')}
           />
           <h2>House Color</h2>
           <Dropdown
             role="tablist"
             title="House Color"
-            options={[...houseColor].sort()}
+            options={houseColor}
             onChange={setFilter('houseColor')}
           />
           <h2>Trim Color</h2>
           <Dropdown
             role="tablist"
             title="Trim Color"
-            options={[...trimColor].sort()}
+            options={trimColor}
             onChange={setFilter('trimColor')}
           />
         </div>
@@ -111,14 +125,14 @@ const App = () => {
           <Dropdown
             role="tablist"
             title="Roof Material"
-            options={[...roofMaterial].sort()}
+            options={roofMaterial}
             onChange={setFilter('roofMaterial')}
           />
           <h2>Roof Color</h2>
           <Dropdown
             role="tablist"
             title="Roof Color"
-            options={[...roofColor].sort()}
+            options={roofColor}
             onChange={setFilter('roofColor')}
           />
         </div>
@@ -128,14 +142,14 @@ const App = () => {
           <Dropdown
             role="tablist"
             title="Door Type"
-            options={[...doorType].sort()}
+            options={doorType}
             onChange={setFilter('doorType')}
           />
           <h2>Door Color</h2>
           <Dropdown
             role="tablist"
             title="Door Color"
-            options={[...doorColor].sort()}
+            options={doorColor}
             onChange={setFilter('doorColor')}
           />
         </div>
@@ -145,14 +159,14 @@ const App = () => {
           <Dropdown
             role="tablist"
             title="Animal"
-            options={[...animalType].sort()}
+            options={animalType}
             onChange={setFilter('animalType')}
           />
           <h2>Personality</h2>
           <Dropdown
             role="tablist"
             title="Personality"
-            options={[...personalityType].sort()}
+            options={personalityType}
             onChange={setFilter('personalityType')}
           />
         </div>
@@ -164,6 +178,15 @@ const App = () => {
             villager={villager}
           />
         ))}
+        {filteredData.length === 0 ? (
+          <div className="Card no-results">
+            <div>
+              <h1 className="villager-text">No Results</h1>
+              <br />
+              <p>Your current selection does not match any of the available villager homes.</p>
+            </div>
+          </div>
+        ) : null}
       </section>
     </div>
   );

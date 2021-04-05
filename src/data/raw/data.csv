@@ -22,8 +22,8 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 21,Renée,Rhino,Uchi,,Americana,Purple,White,Pink,Shingles,White,Basic
 22,Robin,Bird,Snooty,,Americana,White,Brown,Purple,Shingles,Red,Wooden
 23,Roscoe,Horse,Cranky,,Americana,Grey,Grey,Grey,Tin,Black,Vertical-panes
-24,Sylvia,Kangaroo,Uchi,,Americana,Black,White,Purple,Tin,Grey,Iron grill
-25,Tammy,Cub,Uchi,,Americana,Beige,White,Yellow,Curved shingles,Yellow,Vertical-panes
+24,Sylvia,Kangaroo,Uchi,,Americana,Black,White,Purple,Tin,Beige,Iron grill
+25,Tammy,Cub,Uchi,,Americana,Beige,White,Orange,Curved shingles,Yellow,Vertical-panes
 26,Tasha,Squirrel,Snooty,,Americana,Black,White,White,Tin,White,Vertical-panes
 27,Tom,Cat,Cranky,,Americana,Black,White,Grey,Tin,White,Rustic
 28,Vic,Bull,Cranky,,Americana,Blue,white,Black,Shingles,Brown,Common
@@ -61,9 +61,9 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 60,Tad,Frog,Jock,,Cabin,White,Wood,Grey,Thatch ,Green,Wooden
 61,Teddy,Bear,Jock,,Cabin,Tan,Wood,Brown,Shingles,Brown,Windowed
 62,Velma,Goat,Snooty,,Cabin,Pink,Wood,Red,Shingles,Brown,Vertical-panes
-63,Vesta,Sheep,Normal,,Cabin,White,Wood,Black,Shingles,Beige,Basic
+63,Vesta,Sheep,Normal,,Cabin,White,Wood,Blue,Shingles,Beige,Basic
 64,Anabelle,Anteater,Peppy,,Cottage,Yellow,N/A,Orange,Thatch ,White,Latticework
-65,Ankha,Cat,Snooty,,Cottage,Yellow,N/A,Beige,Stone,Black,Metal-accent
+65,Ankha,Cat,Snooty,,Cottage,Yellow,N/A,Brown,Stone,Black,Metal-accent
 66,Audie,Wolf,Peppy,,Cottage,Teal,N/A,Orange,Thatch ,White,Latticework
 67,Baabara,Sheep,Snooty,,Cottage,Brown,N/A,Purple,Stone,White,Fancy
 68,Bangle,Tiger,Peppy,,Cottage,Brown,N/A,Beige,Stone,Brown,Latticework
@@ -75,42 +75,42 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 74,Diva,Frog,Uchi,,Cottage,Grey,N/A,Purple,Stone,Black,Metal-accent
 75,Fauna,Deer,Normal,,Cottage,Sand,N/A,Brown,Stone,Brown,Rustic
 76,Flurry,Hamster,Normal,,Cottage,White,N/A,Beige,Stone,Blue,Rustic
-77,Gabi,Rabbit,Peppy,,Cottage,White,N/A,Brown,Stone,Black,Iron grill
+77,Gabi,Rabbit,Peppy,,Cottage,White,N/A,Brown,Stone,Brown,Iron grill
 78,Gwen,Penguin,Snooty,,Cottage,White,N/A,Purple,Stone,Grey,Iron grill
 79,Hopper,Penguin,Cranky,,Cottage,Yellow,N/A,Black,Stone,Beige,Rustic
-80,Joey,Duck,Lazy,,Cottage,Yellow,N/A,Grey,Thatch ,White,Basic
+80,Joey,Duck,Lazy,,Cottage,Yellow,N/A,Beige,Thatch ,White,Basic
 81,Julian,Horse,Smug,,Cottage,White,N/A,Blue,Stone,Blue,Rustic
 82,Kitt,Kangaroo,Normal,,Cottage,Yellow,N/A,White,Stone,Beige,Windowed
 83,Kody,Cub,Jock,,Cottage,Teal,N/A,White,Stone,Blue,Windowed
-84,Maddie,Dog,Peppy,,Cottage,Sand,N/A,Beige,Stone,White,Wooden
+84,Maddie,Dog,Peppy,,Cottage,Sand,N/A,Brown,Stone,White,Wooden
 85,Marshal,Squirrel,Smug,,Cottage,White,N/A,Grey,Stone,Blue,Common
 86,Mint,Squirrel,Snooty,,Cottage,Teal,N/A,Blue,Tile,Beige,Windowed
 87,Moe,Cat,Lazy,,Cottage,Blue,N/A,Yellow,Thatch ,Blue,Wooden
 88,Monty,Monkey,Cranky,,Cottage,Grey,N/A,Blue,Stone,Blue,Windowed
 89,Pango,Anteater,Peppy,,Cottage,White,N/A,Blue,Stone,Blue,Basic
-90,Piper,Bird,Peppy,,Cottage,White,N/A,Blue,Tile,Black,Iron grill
+90,Piper,Bird,Peppy,,Cottage,White,N/A,Blue,Tile,Brown,Iron grill
 91,Rosie,Cat,Peppy,,Cottage,White,N/A,Beige,Stone,Pink,Iron grill
 92,Sally,Squirrel,Normal,,Cottage,Sand,N/A,Brown,Stone,Brown,Vertical-panes
 93,Sherb,Goat,Lazy,,Cottage,Teal,N/A,White,Tile,Blue,Rustic
 94,Simon,Monkey,Lazy,,Cottage,Sand,N/A,Yellow,Thatch ,Red,Rustic
 95,Sparro,Bird,Jock,,Cottage,Brown,N/A,Yellow,Thatch ,Black,Rustic
 96,Sylvana,Squirrel,Normal,,Cottage,White,N/A,Grey,Thatch ,Green,Wooden
-97,Tipper,Cow,Snooty,,Cottage,White,N/A,Beige,Stone,Teal,Rustic
+97,Tipper,Cow,Snooty,,Cottage,White,N/A,Brown,Stone,Teal,Rustic
 98,Weber,Duck,Lazy,,Cottage,Brown,N/A,Grey,Stone,Brown,Vertical-panes
-99,Admiral,Bird,Cranky,,Country Side,Green,N/A,Brown,Stone,Brown,Latticework
-100,Benjamin,Dog,Lazy,,Country Side,White,N/A,Brown,Thatch ,Yellow,Basic
-101,Billy,Goat,Jock,,Country Side,Tan,N/A,Brown,Thatch ,Brown,Latticework
-102,Blanche,Ostrich,Snooty,,Country Side,White,N/A,Orange,Thatch ,Blue,Latticework
-103,Boots,Crocodile,Jock,,Country Side,Brown,N/A,Grey,Stone,Brown,Latticework
-104,Curt,Bear,Cranky,,Country Side,Grey,N/A,Grey,Stone,Brown,Latticework
-105,Del,Crocodile,Cranky,,Country Side,Blue,N/A,Blue,Tile,Purple,Basic
-106,Dobie,Wolf,Cranky,,Country Side,Green,N/A,Green,Thatch ,Blue,Latticework
-107,Hamphrey,Hamster,Cranky,,Country Side,Black,N/A,Blue,Tile,Blue,Latticework
-108,Hornsby,Rhino,Lazy,,Country Side,Blue,N/A,White,Stone,White,Latticework
-109,Kabuki,Cat,Cranky,,Country Side,Tan,N/A,Yellow,Thatch ,Brown,Latticework
-110,Rizzo,Mouse,Cranky,,Country Side,Green,N/A,Black,Stone,Teal,Rustic
-111,Snooty,Anteater,Snooty,,Country Side,Pink,N/A,Purple,Tile,White,Latticework
-112,Zucker,Octopus,Lazy,,Country Side,Tan,N/A,Brown,Thatch ,Red,Rustic
+99,Admiral,Bird,Cranky,,Traditional III,Green,N/A,Brown,Stone,Brown,Latticework
+100,Benjamin,Dog,Lazy,,Traditional III,White,N/A,Brown,Thatch ,Yellow,Basic
+101,Billy,Goat,Jock,,Traditional III,Tan,N/A,Brown,Thatch ,Brown,Latticework
+102,Blanche,Ostrich,Snooty,,Traditional III,White,N/A,Orange,Thatch ,Blue,Latticework
+103,Boots,Crocodile,Jock,,Traditional III,Brown,N/A,Grey,Stone,Brown,Latticework
+104,Curt,Bear,Cranky,,Traditional III,Grey,N/A,Grey,Stone,Brown,Latticework
+105,Del,Crocodile,Cranky,,Traditional III,Blue,N/A,Blue,Curved shingles,Purple,Basic
+106,Dobie,Wolf,Cranky,,Traditional III,Green,N/A,Green,Thatch ,Blue,Latticework
+107,Hamphrey,Hamster,Cranky,,Traditional III,Black,N/A,Blue,Curved shingles,Blue,Latticework
+108,Hornsby,Rhino,Lazy,,Traditional III,Blue,N/A,White,Stone,White,Latticework
+109,Kabuki,Cat,Cranky,,Traditional III,Tan,N/A,Yellow,Thatch ,Brown,Latticework
+110,Rizzo,Mouse,Cranky,,Traditional III,Green,N/A,Black,Stone,Teal,Rustic
+111,Snooty,Anteater,Snooty,,Traditional III,Pink,N/A,Purple,Curved shingles,White,Latticework
+112,Zucker,Octopus,Lazy,,Traditional III,Tan,N/A,Brown,Thatch ,Red,Rustic
 113,Winnie,Horse,Peppy,,Jungle,Green,Brown,Beige,Stone,Beige,Rustic
 114,Alice,Koala,Normal,,Jungle,Beige,White,Orange,Thatch ,White,Rustic
 115,Alli,Crocodile,Snooty,,Jungle,Beige,White,Blue,Stone,White,Rustic
@@ -118,44 +118,44 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 117,Bonbon,Rabbit,Peppy,,Jungle,Beige,Black,Brown,Stone,Beige,Rustic
 118,Boone,Gorilla,Jock,,Jungle,Beige,Red,Brown,Stone,Blue,Rustic
 119,Buck,Horse,Jock,,Jungle,Beige,White,Brown,Tile,Brown,Vertical-panes
-120,Curlos,Sheep,Smug,,Jungle,Yellow,Brown,Green,Tile,Yellow,Iron
+120,Curlos,Sheep,Smug,,Jungle,Yellow,Green,Green,Tile,Yellow,Iron
 121,Deirdre,Deer,Uchi,,Jungle,Beige,Black,Orange,Thatch ,Brown,Rustic
 122,Drake,Duck,Lazy,,Jungle,Green,Brown,Blue,Tile,Beige,Rustic
 123,Egbert,Chicken,Lazy,,Jungle,Tan,Brown,Yellow,Thatch ,Yellow,Basic
-124,Flip,Monkey,Jock,,Jungle,Yellow,Brown,Brown,Thatch ,Beige,Windowed
-125,Gaston,Rabbit,Cranky,,Jungle,Yellow,Brown,Grey,Thatch ,Black,Latticework
+124,Flip,Monkey,Jock,,Jungle,Yellow,Green,Brown,Thatch ,Beige,Windowed
+125,Gaston,Rabbit,Cranky,,Jungle,Yellow,Green,Beige,Thatch ,Black,Latticework
 126,Hans,Gorilla,Smug,,Jungle,Beige,White,White,Thatch ,Blue,Rustic
-127,Jitters,Bird,Jock,,Jungle,Yellow,Brown,Brown,Thatch ,Green,Vertical-panes
+127,Jitters,Bird,Jock,,Jungle,Yellow,Green,Brown,Thatch ,Green,Vertical-panes
 128,June,Cub,Normal,,Jungle,Beige,White,Orange,Thatch ,White,Latticework
-129,Lopez,Deer,Smug,,Jungle,Beige,White,Beige,Stone,Teal,Rustic
+129,Lopez,Deer,Smug,,Jungle,Beige,White,Brown,Stone,Teal,Rustic
 130,Nate,Bear,Lazy,,Jungle,Green,Brown,Grey,Tile,White,Rustic
-131,O'Hare,Rabbit,Smug,,Jungle,Tan,Brown,Brown,Stone,Brown,Wooden
+131,O'Hare,Rabbit,Smug,,Jungle,Tan,Brown,Brown,Stone,Red,Wooden
 132,Papi,Horse,Lazy,,Jungle,Beige,Red,Brown,Thatch ,Beige,Windowed
 133,Pierce,Eagle,Jock,,Jungle,Beige,White,Blue,Stone,Teal,Rustic
-134,Plucky,Chicken,Uchi,,Jungle,Green,Brown,Black,Thatch ,Beige,Rustic
-135,Prince,Frog,Lazy,,Jungle,Yellow,Brown,Green,Tile,Beige,Rustic
-136,Rex,Lion,Lazy,,Jungle,Yellow,Brown,Black,Thatch ,Brown,Latticework
+134,Plucky,Chicken,Uchi,,Jungle,Green,Brown,Brown,Thatch ,Beige,Rustic
+135,Prince,Frog,Lazy,,Jungle,Yellow,Green,Green,Tile,Beige,Rustic
+136,Rex,Lion,Lazy,,Jungle,Yellow,Green,Brown,Thatch ,Brown,Latticework
 137,Rolf,Tiger,Cranky,,Jungle,Beige,White,White,Thatch ,Grey,Latticework
 138,Shari,Monkey,Uchi,,Jungle,Beige,White,Orange,Thatch ,Beige,Windowed
 139,Shep,Dog,Smug,,Jungle,Beige,Black,White,Thatch ,Beige,Rustic
 140,Timbra,Sheep,Snooty,,Jungle,Tan,Brown,Brown,Thatch ,Green,Iron grill
 141,Tucker,Elephant,Lazy,,Jungle,Tan,Brown,Yellow,Thatch ,Beige,Rustic
-142,Alfonso,Crocodile,Lazy,,Rural,Tan,Brown,Green,Shingles,Green,Common
+142,Alfonso,Crocodile,Lazy,,Rural,Orange,Brown,Green,Shingles,Green,Common
 143,Astrid,Kangaroo,Snooty,,Rural,Red,Brown,Blue,Shingles,White,Vertical-panes
-144,Bettina,Mouse,Normal,,Rural,Tan,Brown,Red,Tile,Yellow,Vertical-panes
+144,Bettina,Mouse,Normal,,Rural,Orange,Brown,Red,Tile,Yellow,Vertical-panes
 145,Bluebear,Cub,Peppy,,Rural,Teal,White,Blue,Tile,White,Wooden
 146,Bones,Dog,Lazy,,Rural,White,Brown,Brown,Tile,Grey,Simple
 147,Boomer,Penguin,Lazy,,Rural,Green,Brown,Brown,Tile,Yellow,Common
 148,Boyd,Gorilla,Cranky,,Rural,Red,Brown,Brown,Thatch ,Beige,Windowed
 149,Broccolo,Mouse,Lazy,,Rural,Blue,Brown,Blue,Shingles,Blue,Basic
-150,Caroline,Squirrel,Normal,,Rural,Tan,Brown,Yellow,Thatch ,Red,Wooden
+150,Caroline,Squirrel,Normal,,Rural,Orange,Brown,Yellow,Thatch ,Red,Wooden
 151,Chrissy,Rabbit,Peppy,,Rural,Teal,White,Pink,Tile,Pink,Iron grill
-152,Claude,Rabbit,Lazy,,Rural,Tan,Brown,Black,Shingles,Beige,Wooden
+152,Claude,Rabbit,Lazy,,Rural,Orange,Brown,Blue,Shingles,Beige,Wooden
 153,Clyde,Horse,Lazy,,Rural,White,Brown,Brown,Shingles,Yellow,Common
-154,Deena,Duck,Normal,,Rural,Grey,Grey,Black,Shingles,Yellow,Common
+154,Deena,Duck,Normal,,Rural,Grey,Grey,Blue,Shingles,Yellow,Common
 155,Derwin,Duck,Lazy,,Rural,Blue,Brown,Brown,Thatch ,Blue,Common
 156,Dizzy,Elephant,Lazy,,Rural,Blue,Brown,Blue,Shingles,White,Wooden
-157,Drift,Frog,Jock,,Rural,Red,Brown,Black,Tile,Yellow,Basic
+157,Drift,Frog,Jock,,Rural,Red,Brown,Brown,Tile,Yellow,Basic
 158,Fang,Wolf,Cranky,,Rural,White,Brown,White,Tile,White,Iron grill
 159,Francine,Rabbit,Snooty,,Rural,Teal,White,Blue,Tile,Blue,Iron grill
 160,Goldie,Dog,Normal,,Rural,White,Brown,Yellow,Tile,Brown,Wooden
@@ -165,11 +165,11 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 164,Jambette,Frog,Normal,,Rural,White,Brown,Green,Shingles,Pink,Iron grill
 165,Jay,Bird,Jock,,Rural,White,Brown,Brown,Thatch ,Blue,Basic
 166,Jeremiah,Frog,Lazy,,Rural,Blue,Brown,Blue,Shingles,Blue,Vertical-panes
-167,Kiki,Cat,Normal,,Rural,Tan,Brown,Red,Tile,Green,Windowed
+167,Kiki,Cat,Normal,,Rural,Orange,Brown,Red,Tile,Green,Windowed
 168,Lily,Frog,Normal,,Rural,White,Brown,Blue,Shingles,Blue,Common
 169,Lolly,Cat,Normal,,Rural,Sand,Brown,Blue,Shingles,White,Windowed
 170,Nana,Monkey,Normal,,Rural,White,Brown,Pink,Tile,Teal,Basic
-171,Pancetti,Pig,Snooty,,Rural,Tan,Brown,Yellow,Thatch ,Blue,Simple
+171,Pancetti,Pig,Snooty,,Rural,Orange,Brown,Yellow,Thatch ,Blue,Simple
 172,Paolo,Elephant,Lazy,,Rural,White,Brown,Purple,Tile,Yellow,Basic
 173,Pate,Duck,Peppy,,Rural,Teal,White,Brown,Tile,Yellow,Common
 174,Peggy,Pig,Peppy,,Rural,Sand,Brown,White,Tile,Pink,Simple
@@ -179,14 +179,14 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 178,Quillson,Duck,Smug,,Rural,Green,Brown,Yellow,Tile,Yellow,Simple
 179,Rhonda,Rhino,Normal,,Rural,White,Brown,Purple,Tile,Beige,Basic
 180,Rodney,Hamster,Smug,,Rural,Sand,Brown,Blue,Shingles,Purple,Basic
-181,Rudy,Cat,Jock,,Rural,Tan,Brown,Red,Shingles,Green,Windowed
-182,Sandy,Ostrich,Normal,,Rural,Tan,Brown,Blue,Tile,Purple,Basic
+181,Rudy,Cat,Jock,,Rural,Orange,Brown,Red,Shingles,Green,Windowed
+182,Sandy,Ostrich,Normal,,Rural,Orange,Brown,Blue,Tile,Purple,Basic
 183,Scoot,Duck,Jock,,Rural,White,Brown,Blue,Shingles,Teal,Basic
 184,Skye,Wolf,Normal,,Rural,White,Brown,White,Tile,Teal,Basic
 185,Stu,Bull,Lazy,,Rural,Blue,Brown,Blue,Shingles,Blue,Wooden
 186,Tia,Elephant,Normal,,Rural,Teal,White,White,Tile,Blue,Vertical-panes
 187,Ursala,Bear,Uchi,,Rural,White,Brown,Red,Tile,Teal,Rustic
-188,Victoria,Horse,Peppy,,Rural,Tan,Brown,Yellow,Thatch ,Brown,Basic
+188,Victoria,Horse,Peppy,,Rural,Orange,Brown,Yellow,Thatch ,Brown,Basic
 189,Whitney,Wolf,Snooty,,Rural,Teal,White,White,Tile,White,Common
 190,Yuka,Koala,Snooty,,Rural,Blue,Brown,Grey,Thatch ,Blue,Wooden
 191,Bea,Dog,Normal,,Rustic,White,Brown,Brown,Thatch ,Brown,Common
@@ -203,7 +203,7 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 202,Felicity,Cat,Peppy,,Rustic,White,White,Pink,Tile,Beige,Rustic
 203,Flo,Penguin,Uchi,,Rustic,White,Grey,Purple,Shingles,Beige,Basic
 204,Freya,Wolf,Snooty,,Rustic,Sky,White,Pink,Tile,White,Metal-accent
-205,Gala,Pig,Normal,,Rustic,Sky,White,Grey,Thatch ,Pink,Simple
+205,Gala,Pig,Normal,,Rustic,Sky,White,Brown,Thatch ,Pink,Simple
 206,Gigi,Frog,Snooty,,Rustic,White,Grey,Purple,Tile,Grey,Iron grill
 207,Judy,Cub,Snooty,,Rustic,Sky,White,Blue,Tile,Pink,Simple
 208,Julia,Ostrich,Snooty,,Rustic,Sky,White,Blue,Shingles,Blue,Wooden
@@ -234,7 +234,7 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 233,Axel,Elephant,Jock,,Stucco,Blue,White,Orange,Curved shingles,Blue,Common
 234,Bob,Cat,Lazy,,Stucco,Yellow,Beige,Blue,Shingles,Red,Wooden
 235,Bree,Mouse,Snooty,,Stucco,White,White,Green,Tin,White,Vertical-panes
-236,Butch,Dog,Cranky,,Stucco,Orange,White,Black,Shingles,Brown,Vertical-panes
+236,Butch,Dog,Cranky,,Stucco,Orange,White,Grey,Shingles,Brown,Vertical-panes
 237,Cesar,Gorilla,Cranky,,Stucco,Orange,White,Brown,Shingles,Black,Vertical-panes
 238,Cube,Penguin,Lazy,,Stucco,Yellow,Beige,Black,Shingles,Blue,Basic
 239,Dotty,Rabbit,Peppy,,Stucco,White,White,Black,Shingles,Blue,Windowed
@@ -274,7 +274,7 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 273,Cobb,Pig,Jock,,Suburban,Sand,Brown,Green,Tin,Green,Vertical-panes
 274,Colton,Horse,Smug,,Suburban,White,Grey,Orange,Curved shingles,White,Iron grill
 275,Doc,Rabbit,Lazy,,Suburban,Sand,Brown,Blue,Shingles,Blue,Common
-276,Elise,Monkey,Snooty,,Suburban,Yellow,Brown,Pink,Curved shingles,Brown,Vertical-panes
+276,Elise,Monkey,Snooty,,Suburban,Yellow,Brown,Orange,Curved shingles,Brown,Vertical-panes
 277,Elvis,Lion,Cranky,,Suburban,White,Grey,Grey,Curved shingles,Red,Fancy
 278,Eugene,Koala,Smug,,Suburban,White,Black,Brown,Shingles,Black,Vertical-panes
 279,Eunice,Sheep,Normal,,Suburban,Black,Brown,Brown,Shingles,Pink,Simple
@@ -285,7 +285,7 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 284,Hugh,Pig,Lazy,,Suburban,White,Black,Blue,Shingles,Blue,Rustic
 285,Kidd,Goat,Smug,,Suburban,White,Black,Purple,Tin,Brown,Vertical-panes
 286,Kitty,Cat,Snooty,,Suburban,Sand,Brown,Purple,Shingles,Brown,Iron grill
-287,Knox,Chicken,Cranky,,Suburban,White,Black,Yellow,Curved shingles,Yellow,Iron
+287,Knox,Chicken,Cranky,,Suburban,White,Black,Orange,Curved shingles,Yellow,Iron
 288,Leonardo,Tiger,Jock,,Suburban,Yellow,Brown,Black,Shingles,Grey,Simple
 289,Leopold,Lion,Smug,,Suburban,Sand,Brown,Green,Shingles,Brown,Iron grill
 290,Lucy,Pig,Normal,,Suburban,White,Orange,Orange,Curved shingles,Pink,Basic
@@ -299,25 +299,25 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 298,Raymond,Cat,Smug,,Suburban,White,Black,Black,Shingles,Green,Iron grill
 299,Rod,Mouse,Jock,,Suburban,White,Grey,Purple,Shingles,Yellow,Common
 300,Rodeo,Bull,Lazy,,Suburban,Black,Brown,Green,Tin,Brown,Iron grill
-301,Savannah,Horse,Normal,,Suburban,White,Black,Yellow,Curved shingles,Grey,Iron grill
-302,Tex,Penguin,Smug,,Suburban,White,Black,Black,Tin,Black,Simple
+301,Savannah,Horse,Normal,,Suburban,White,Black,Orange,Curved shingles,Grey,Iron grill
+302,Tex,Penguin,Smug,,Suburban,White,Black,Black,Tin,Green,Simple
 303,Truffles,Pig,Peppy,,Suburban,Pink,Brown,Brown,Curved shingles,Beige,Wooden
 304,Vivian,Wolf,Snooty,,Suburban,White,Grey,Orange,Curved shingles,White,Metal-accent
-305,Wendy,Sheep,Peppy,,Suburban,Yellow,Brown,Blue,Tin,Black,Simple
+305,Wendy,Sheep,Peppy,,Suburban,Yellow,Brown,Blue,Tin,Green,Simple
 306,Cyd,Elephant,Cranky,,Suburban,Black,Brown,Red,Tin,Grey,Iron
 307,Puddles,Frog,Peppy,,Terracotta ,Pink,Beige,White,Thatch ,Red,Metal-accent
-308,Queenie,Ostrich,Snooty,,Terracotta ,White,Beige,Purple,Stone,Black,Iron grill
-309,Rasher,Pig,Cranky,,Terracotta ,Red,Grey,Black,Thatch ,Brown,Latticework
+308,Queenie,Ostrich,Snooty,,Terracotta ,White,Beige,Purple,Stone,Grey,Iron grill
+309,Rasher,Pig,Cranky,,Terracotta ,Red,Grey,Brown,Thatch ,Brown,Latticework
 310,Angus,Bull,Cranky,,Terracotta ,Red,Grey,Black,Stone,Black,Iron
 311,Antonio,Anteater,Jock,,Terracotta ,White,Beige,Black,Stone,Beige,Wooden
 312,Apple,Hamster,Peppy,,Terracotta ,Pink,Beige,Red,Tile,Brown,Basic
 313,Avery,Eagle,Cranky,,Terracotta ,Brown,Brown,Grey,Stone,Brown,Latticework
 314,Bertha,Hippo,Normal,,Terracotta ,Green,Green,Blue,Stone,Teal,Rustic
 315,Cally,Squirrel,Normal,,Terracotta ,Green,Green,Grey,Tile,Beige,Windowed
-316,Clay,Hamster,Lazy,,Terracotta ,Orange,Yellow,Brown,Thatch ,Red,Rustic
+316,Clay,Hamster,Lazy,,Terracotta ,Tan,Yellow,Brown,Thatch ,Red,Rustic
 317,Cole,Rabbit,Lazy,,Terracotta ,Brown,Brown,White,Thatch ,Black,Vertical-panes
 318,Cookie,Dog,Peppy,,Terracotta ,White,Beige,Pink,Tile,Brown,Windowed
-319,Deli,Monkey,Lazy,,Terracotta ,Sand,Grey,Brown,Tile,Black,Simple
+319,Deli,Monkey,Lazy,,Terracotta ,Sand,Grey,Brown,Tile,Green,Simple
 320,Flora,Ostrich,Peppy,,Terracotta ,Pink,Beige,White,Tile,Pink,Iron grill
 321,Friga,Penguin,Snooty,,Terracotta ,Pink,Beige,Purple,Stone,Blue,Basic
 322,Gayle,Crocodile,Normal,,Terracotta ,White,Beige,White,Thatch ,Pink,Metal-accent
@@ -336,63 +336,63 @@ UID,Villager,Animal,Personality,Image,House Type,House Color,Trim Color,Roof Col
 335,Violet,Gorilla,Snooty,,Terracotta ,Pink,Beige,Purple,Stone,Black,Metal-accent
 336,Wade,Penguin,Lazy,,Terracotta ,Sand,Grey,Grey,Tile,White,Basic
 337,Zell,Deer,Smug,,Terracotta ,Brown,Brown,Grey,Stone,White,Wooden
-338,Annalisa,Anteater,Normal,,Traditional I,White,Beige,Purple,Tile,White,Zen
+338,Annalisa,Anteater,Normal,,Traditional I,White,Beige,Purple,Curved shingles,White,Zen
 339,Buzz,Eagle,Cranky,,Traditional I,Tan,Brown,Brown,Stone,Brown,Latticework
 340,Coco,Rabbit,Normal,,Traditional I,Green,Brown,Beige,Thatch ,Beige,Rustic
 341,Cranston,Ostrich,Lazy,,Traditional I,White,Beige,Yellow,Thatch ,Red,Rustic
-342,Croque,Frog,Cranky,,Traditional I,White,Black,Blue,Tile,Black,Zen
-343,Cyrano,Anteater,Cranky,,Traditional I,White,Beige,Blue,Tile,Blue,Latticework
+342,Croque,Frog,Cranky,,Traditional I,White,Black,Blue,Curved shingles,Black,Zen
+343,Cyrano,Anteater,Cranky,,Traditional I,White,Beige,Blue,Curved shingles,Blue,Latticework
 344,Dora,Mouse,Normal,,Traditional I,Grey,White,Black,Stone,Teal,Rustic
 345,Gladys,Ostrich,Normal,,Traditional I,White,Black,Beige,Stone,Red,Latticework
-346,Greta,Mouse,Snooty,,Traditional I,White,Beige,Blue,Tile,Black,Zen
+346,Greta,Mouse,Snooty,,Traditional I,White,Beige,Blue,Curved shingles,Black,Zen
 347,Harry,Hippo,Cranky,,Traditional I,Tan,Brown,Yellow,Thatch ,Brown,Latticework
-348,Ken,Chicken,Smug,,Traditional I,White,Black,Blue,Tile,Blue,Latticework
+348,Ken,Chicken,Smug,,Traditional I,White,Black,Blue,Curved shingles,Blue,Latticework
 349,Limberg,Mouse,Cranky,,Traditional I,Tan,Brown,Beige,Thatch ,Grey,Latticework
 350,Marcel,Dog,Lazy,,Traditional I,White,Beige,Grey,Stone,Brown,Latticework
 351,Snake,Rabbit,Jock,,Traditional I,White,Black,Brown,Thatch ,Blue,Latticework
 352,Tank,Rhino,Jock,,Traditional I,Grey,White,Grey,Stone,White,Latticework
 353,Walt,Kangaroo,Cranky,,Traditional I,Grey,Brown,Black,Stone,Blue,Latticework
 354,Wart Jr.,Frog,Cranky,,Traditional I,Sand,Grey,Black,Stone,Brown,Latticework
-355,Chester,Cub,Lazy,,Traditional II,White,Brown,Blue,Tile,White,Zen
-356,Chow,Bear,Cranky,,Traditional II,White,Brown,Green,Tile,Brown,Imperial
-357,Cousteau,Frog,Jock,,Traditional II,White,Brown,Yellow,Tile,Black,Imperial
-358,Drago,Crocodile,Lazy,,Traditional II,Yellow,White,Green,Tile,White,Imperial
-359,Genji,Rabbit,Jock,,Traditional II,White,Brown,Purple,Tile,White,Zen
-360,Margie,Elephant,Normal,,Traditional II,Yellow,White,Orange,Tile,Yellow,Imperial
-361,Octavian,Octopus,Cranky,,Traditional II,Red,Red,Brown,Tile,Red,Rustic
-362,Pekoe,Cub,Normal,,Traditional II,Red,Red,Blue,Tile,Black,Imperial
-363,Pinky,Bear,Peppy,,Traditional II,Pink,White,Yellow,Tile,Yellow,Imperial
-364,Rory,Lion,Jock,,Traditional II,White,Brown,Orange,Tile,Brown,Latticework
-365,Rowan,Tiger,Jock,,Traditional II,Green,Brown,Brown,Tile,Brown,Latticework
-366,Jacques,Bird,Smug,,Urban,Black,Black,Green,Shingles,Blue,Vertical-panes
-367,Rooney,Kangaroo,Cranky,,Urban,Grey,Beige,Black,Tin,Blue,Basic
-368,Barold,Cub,Lazy,,Urban,Grey,Beige,Grey,Tin,Black,Vertical-panes
-369,Agent S,Squirrel,Peppy,,Urban,Blue,Blue,White,Tin,Blue,Iron
-370,Anicotti,Mouse,Peppy,,Urban,Green,Green,Pink,Tin,Teal,Rustic
-371,Biff,Hippo,Jock,,Urban,Red,Red,Black,Tin,Grey,Iron
-372,Big Top,Elephant,Lazy,,Urban,Green,Green,White,Tin,Green,Common
-373,Chief,Wolf,Cranky,,Urban,White,White,Orange,Curved shingles,White,Iron
-374,Claudia,Tiger,Snooty,,Urban,Pink,Pink,Purple,Tin,Purple,Vertical-panes
-375,Ed,Horse,Smug,,Urban,White,White,Blue,Shingles,White,Basic
-376,Frank,Eagle,Cranky,,Urban,Yellow,Yellow,Green,Tin,Brown,Latticework
-377,Fuchsia,Deer,Uchi,,Urban,Pink,Pink,Orange,Curved shingles,Teal,Basic
-378,Groucho,Bear,Cranky,,Urban,Black,Black,Blue,Tin,Grey,Iron
-379,Ike,Bear,Cranky,,Urban,Grey,Beige,Grey,Tin,Brown,Latticework
-380,Kid Cat,Cat,Jock,,Urban,Red,Red,White,Tin,Red,Iron
-381,Kyle,Wolf,Smug,,Urban,Grey,Beige,White,Tin,Grey,Metal-accent
-382,Lucha,Bird,Smug,,Urban,White,White,Red,Tin,Yellow,Iron
-383,Peewee,Gorilla,Cranky,,Urban,White,White,Grey,Tin,Blue,Common
-384,Ribbot,Frog,Jock,,Urban,Grey,Beige,Black,Tin,Grey,Iron
-385,Rocco,Hippo,Cranky,,Urban,Black,Black,Green,Tin,Red,Iron
-386,Rocket,Gorilla,Uchi,,Urban,Pink,Pink,White,Tin,Pink,Iron
-387,Spike,Rhino,Cranky,,Urban,Black,Black,Orange,Tin,Yellow,Iron
-388,Sprocket,Ostrich,Jock,,Urban,Green,Green,Grey,Tin,Teal,Iron
-389,Static,Squirrel,Cranky,,Urban,Black,Black,Purple,Tin,Yellow,Common
-390,Stinky,Cat,Jock,,Urban,Blue,Blue,White,Tin,Red,Iron
-391,Vladimir,Cub,Cranky,,Urban,Pink,Pink,Grey,Tin,Yellow,Iron
+355,Chester,Cub,Lazy,,Traditional II,White,Brown,Blue,Curved shingles,White,Zen
+356,Chow,Bear,Cranky,,Traditional II,White,Brown,Green,Curved shingles,Brown,Imperial
+357,Cousteau,Frog,Jock,,Traditional II,White,Brown,Yellow,Curved shingles,Black,Imperial
+358,Drago,Crocodile,Lazy,,Traditional II,Yellow,White,Green,Curved shingles,White,Imperial
+359,Genji,Rabbit,Jock,,Traditional II,White,Brown,Purple,Curved shingles,White,Zen
+360,Margie,Elephant,Normal,,Traditional II,Yellow,White,Orange,Curved shingles,Yellow,Imperial
+361,Octavian,Octopus,Cranky,,Traditional II,Red,Red,Brown,Curved shingles,Red,Rustic
+362,Pekoe,Cub,Normal,,Traditional II,Red,Red,Blue,Curved shingles,Black,Imperial
+363,Pinky,Bear,Peppy,,Traditional II,Pink,White,Yellow,Curved shingles,Yellow,Imperial
+364,Rory,Lion,Jock,,Traditional II,White,Brown,Orange,Curved shingles,Brown,Latticework
+365,Rowan,Tiger,Jock,,Traditional II,Green,Brown,Brown,Curved shingles,Brown,Latticework
+366,Jacques,Bird,Smug,,City,Black,Black,Green,Shingles,Blue,Vertical-panes
+367,Rooney,Kangaroo,Cranky,,City,Grey,Beige,Black,Tin,Blue,Basic
+368,Barold,Cub,Lazy,,City,Grey,Beige,Grey,Tin,Black,Vertical-panes
+369,Agent S,Squirrel,Peppy,,City,Blue,Blue,White,Tin,Blue,Iron
+370,Anicotti,Mouse,Peppy,,City,Green,Green,Pink,Tin,Teal,Rustic
+371,Biff,Hippo,Jock,,City,Red,Red,Black,Tin,Grey,Iron
+372,Big Top,Elephant,Lazy,,City,Green,Green,White,Tin,Green,Common
+373,Chief,Wolf,Cranky,,City,White,White,Orange,Curved shingles,White,Iron
+374,Claudia,Tiger,Snooty,,City,Pink,Pink,Purple,Tin,Purple,Vertical-panes
+375,Ed,Horse,Smug,,City,White,White,Blue,Shingles,White,Basic
+376,Frank,Eagle,Cranky,,City,Yellow,Yellow,Green,Tin,Brown,Latticework
+377,Fuchsia,Deer,Uchi,,City,Pink,Pink,Orange,Curved shingles,Teal,Basic
+378,Groucho,Bear,Cranky,,City,Black,Black,Blue,Tin,Grey,Iron
+379,Ike,Bear,Cranky,,City,Grey,Beige,Grey,Tin,Brown,Latticework
+380,Kid Cat,Cat,Jock,,City,Red,Red,White,Tin,Red,Iron
+381,Kyle,Wolf,Smug,,City,Grey,Beige,White,Tin,Grey,Metal-accent
+382,Lucha,Bird,Smug,,City,White,White,Red,Tin,Yellow,Iron
+383,Peewee,Gorilla,Cranky,,City,White,White,Grey,Tin,Blue,Common
+384,Ribbot,Frog,Jock,,City,Grey,Beige,Black,Tin,Grey,Iron
+385,Rocco,Hippo,Cranky,,City,Black,Black,Green,Tin,Red,Iron
+386,Rocket,Gorilla,Uchi,,City,Pink,Pink,White,Tin,Pink,Iron
+387,Spike,Rhino,Cranky,,City,Black,Black,Orange,Tin,Yellow,Iron
+388,Sprocket,Ostrich,Jock,,City,Green,Green,Grey,Tin,Teal,Iron
+389,Static,Squirrel,Cranky,,City,Black,Black,Purple,Tin,Yellow,Common
+390,Stinky,Cat,Jock,,City,Blue,Blue,White,Tin,Red,Iron
+391,Vladimir,Cub,Cranky,,City,Pink,Pink,Grey,Tin,Yellow,Iron
 392,Rilla,Gorilla,Peppy,,Americana,Beige,White,Red,Curved shingles,Blue,Wooden
 393,Marty,Cub,Lazy,,Cabin,Yellow,Wood,Purple,Tile,Red,Wooden
-394,Étoile,Sheep,Normal,,Terracotta,Pink,N/A,White,Thatch,Blue,Basic
+394,Étoile,Sheep,Normal,,Terracotta,Pink,Beige,White,Thatch,Blue,Basic
 395,Chai,Elephant,Peppy,,Rural,Teal,White,Pink,Tile,White,Common
 396,Chelsea,Deer,Normal,,Stucco,White,White,Pink,Shingles,Pink,Iron grill
-397,Toby,Rabbit,Smug,,Traditional II,Yellow,White,Green,Tile,Brown,Latticework
+397,Toby,Rabbit,Smug,,Traditional II,Yellow,White,Green,Curved shingles,Brown,Latticework

@@ -52,10 +52,9 @@ export default function Dropdown({
         onClick={toggleDropdown}
         onKeyDown={toggleDropdown}
       >
-        <h3>Select options...</h3>
+        { open === false ? (<h3>Select Options...</h3>) : <h3>Close Menu</h3>}
       </div>
-      {
-        open === true && (
+      {open === true && (
         <div className="checkboxes">
           {options.map((option) => (
             <label htmlFor={option} key={option}>
@@ -71,8 +70,7 @@ export default function Dropdown({
             </label>
           ))}
         </div>
-        )
-        }
+      )}
     </div>
   );
 }

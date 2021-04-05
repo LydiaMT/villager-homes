@@ -6,12 +6,7 @@
 
 ### Background
 
-This is a side project I created during a break between my intermediate and advanced courses in a software development bootcamp. During this period, I taught myself React and decided to put my skills to the test by building this passion project with React. **If you have any feedback on the application, from functionality to a perspective on a house color and anything in between, please connect with me!**
-
-TLDR;
-Back in October 2020, I was waiting on my new Nintendo Switch to show up so I could make another island in Animal Crossing New Horizons. This game basically became my obsession in 2020 when the pandemic hit. I wanted to be really intentional about the new island I was making, so while I waited on my switch I decided to spend time researching villager homes. This turned into me spending a few days compiling all of the houses and populating a spreadsheet with various home attributes. 
-
-It was also around this time that I decided to leave my current job with the pursuit of moving into software development. So come January of 2021, I'm in the early weeks of my bootcamp and we're brainstorming projects we could create with our new skills. Suddenly I remember the spreadsheet I created. Ever since that moment it's been a dream of mine to bring the spreadsheet to life in the form of a user friendly web application. 
+This is a side project I created during a break between my intermediate and advanced courses in a software development bootcamp. During this period, I taught myself React and decided to put my skills to the test by building this passion project with React. **If you have any feedback on the application, from functionality to a perspective on a house color and anything in between, please contact me!**
 
 ### Problem Domain
 
@@ -21,7 +16,7 @@ My goal with this website is to provide an intuitive user experience where users
 
 ### User Stories
 
-*As a user, I want to be able to pick villagers for my island by their home exteriors so the houses match the theme or aesthetic of my island.*
+*As a player, I want to be able to pick villagers for my island by their home exteriors so the houses match the theme or aesthetic of my island.*
 
 ### Initial Wire Frame
 
