@@ -27,6 +27,8 @@ export default function Dropdown({
   const isSelected = (selection) => selections.includes(selection);
 
   const handleChange = (option) => (_event) => {
+    console.log('options', option);
+    console.log('_event', _event);
     if (isSelected(option)) {
       removeSelections(option);
     } else {
@@ -57,12 +59,12 @@ export default function Dropdown({
       {open === true && (
         <div className="checkboxes">
           {options.map((option) => (
-            <label htmlFor={option} key={option}>
+            <label htmlFor={`${title}${option}`} key={`${title}${option}`}>
               <input
                 role="tab"
                 onChange={handleChange(option)}
                 type="checkbox"
-                id={option}
+                id={`${title}${option}`}
                 value={option}
                 checked={isSelected(option)}
               />
