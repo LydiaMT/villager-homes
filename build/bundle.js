@@ -70,6 +70,9 @@ function Dropdown({
   const isSelected = selection => selections.includes(selection);
 
   const handleChange = option => _event => {
+    console.log('options', option);
+    console.log('_event', _event);
+
     if (isSelected(option)) {
       removeSelections(option);
     } else {
@@ -94,13 +97,13 @@ function Dropdown({
   }, open === false ? /*#__PURE__*/react.createElement("h3", null, "Select Options...") : /*#__PURE__*/react.createElement("h3", null, "Close Menu")), open === true && /*#__PURE__*/react.createElement("div", {
     className: "checkboxes"
   }, options.map(option => /*#__PURE__*/react.createElement("label", {
-    htmlFor: option,
-    key: option
+    htmlFor: `${title}${option}`,
+    key: `${title}${option}`
   }, /*#__PURE__*/react.createElement("input", {
     role: "tab",
     onChange: handleChange(option),
     type: "checkbox",
-    id: option,
+    id: `${title}${option}`,
     value: option,
     checked: isSelected(option)
   }), option))));
